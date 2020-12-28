@@ -1,0 +1,349 @@
+{
+  "uuid": "96eef805b03f2ebb2a089c1bd41493c0",
+  "path": "Offline/My_Own_Arduino",
+  "name": "My_Own_Arduino",
+  "content": "",
+  "created_at": "2020-12-23 21:36:53",
+  "updated_at": "2020-12-28 20:52:41",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "545a2d4a144aebacb9afb88f2b6d8738",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "9669163051044703a07eaec8582464b6": 1,
+        "69615fe690c54df6afb90f1adf2df97c": 1,
+        "9e4b54b7629f4fe6aa0587f2c04d5c7b": 1,
+        "bacf5553da266925c44144ce5fdc0a97": 4,
+        "f367c9043b9d696814add546ab641d32": 2,
+        "5ae8abab3ac7b2d6a3f7440de1a35612": 2,
+        "36628af0fe3849a2f482991ed56c81b7": 1,
+        "1483dbefd16a46b8b52f11e78a84f326": 1,
+        "c9ae74abbef14a208e962258f974306b": 2,
+        "6a0ce076c5354075b7f1c9af8154c750": 1,
+        "17c175191e044931b3cfc6340422abe5": 1,
+        "cb4055a2f4a74f3381b4acad2a86abbc": 1,
+        "0d29519c2252636698b51fcd5e1445af": 3,
+        "b74b80cfe7064e6ab139cd388884dcd0": 1,
+        "4b2dee62f58f4ae39a9ac3fd3e9307ab": 1,
+        "5ac7e330e82c4a019cd9664f7fbd86d1": 1,
+        "9a66c25dd8256b349effea3fc473f261": 6,
+        "abc75a3247db7d77741ccb22cb42de8b": 5
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "XL-1.8SYT4AD",
+          3,
+          "LED3MM",
+          "LED2,LED1,LED3",
+          {
+            "BOM_Supplier Part": "undefined",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "LCSC",
+            "BOM_Manufacturer Part": "XL-1.8SYT4AD",
+            "puuid": "97ce2590a227457c91ada573d82c648e",
+            "uuid": "0d29519c2252636698b51fcd5e1445af"
+          }
+        ],
+        [
+          "X214602-HD",
+          1,
+          "SW-TH_X214602-HD",
+          "SW2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C712702",
+            "BOM_Manufacturer": "Honeywell",
+            "BOM_Manufacturer Part": "X214602-HD",
+            "puuid": "b98bb3d2702843ceb9d5bb123f78dbca",
+            "uuid": "4b2dee62f58f4ae39a9ac3fd3e9307ab"
+          }
+        ],
+        [
+          "LCD1602_I2C",
+          1,
+          "LCD1602 I2C",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "LCD1602 i2c",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "f962f504fec044148a8605c2e711a789",
+            "uuid": "5ac7e330e82c4a019cd9664f7fbd86d1"
+          }
+        ],
+        [
+          "Header-Female-2.54_1x10",
+          2,
+          "HDR-TH_10P-P2.54-V-F",
+          "J1,J2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "2.54mm 1*10P Straight Female header Gold-plated",
+            "BOM_Supplier Part": "C35445",
+            "puuid": "17eda053266b4cdca86c67384ca2b6c2",
+            "uuid": "5ae8abab3ac7b2d6a3f7440de1a35612"
+          }
+        ],
+        [
+          "3X4MM TACT",
+          1,
+          "2 PIN SWITCH",
+          "PUSHBUTTON",
+          {
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Switch3x4x2",
+            "puuid": "1f1103fa7d644f9ea30f99d21e4e85bf",
+            "uuid": "6a0ce076c5354075b7f1c9af8154c750"
+          }
+        ],
+        [
+          "1K",
+          2,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R5,R6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "MFR0W4F3000A50",
+            "BOM_Supplier Part": "C58609",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "9a66c25dd8256b349effea3fc473f261"
+          }
+        ],
+        [
+          "300",
+          4,
+          "RES-TH_BD2.2-L6.5-P10.50-D0.6",
+          "R2,R4,R8,R3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "UniOhm",
+            "BOM_Manufacturer Part": "MFR0W4F3000A50",
+            "BOM_Supplier Part": "C58609",
+            "puuid": "666264fd42b84465ad050a9517cab8cf",
+            "uuid": "9a66c25dd8256b349effea3fc473f261"
+          }
+        ],
+        [
+          "USB - Mini USB conn",
+          1,
+          "MINI_USB_1.2_HOLE2",
+          "CN1",
+          {
+            "BOM_Manufacturer Part": "USB - Mini USB",
+            "puuid": "a9f58b7c827549bea2319eb039944681",
+            "uuid": "9e4b54b7629f4fe6aa0587f2c04d5c7b"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "RES-TH_BD1.9-L3.4-P7.40-D0.5",
+          "R1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C176374",
+            "BOM_Manufacturer": "YAGEO",
+            "BOM_Manufacturer Part": "MFR-12JT-52-10K",
+            "puuid": "77928cef351446688851083c91bd25b6",
+            "uuid": "17c175191e044931b3cfc6340422abe5"
+          }
+        ],
+        [
+          "1N4007",
+          1,
+          "DO-41",
+          "D1",
+          {
+            "BOM_Supplier Part": "C84641",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STARSEA",
+            "BOM_Manufacturer Part": "1N4007",
+            "puuid": "62ebdfef793947468e3737868cdd34ba",
+            "uuid": "1483dbefd16a46b8b52f11e78a84f326"
+          }
+        ],
+        [
+          "ATMEGA328P-PU",
+          1,
+          "DIP-28_L34.6-W7.3-P2.54-LS10.2-BL",
+          "U4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "MICROCHIP",
+            "BOM_Manufacturer Part": "ATMEGA328P-PU",
+            "BOM_Supplier Part": "C33901",
+            "puuid": "2f1d96128ab94db491eae99d61bfb39c",
+            "uuid": "36628af0fe3849a2f482991ed56c81b7"
+          }
+        ],
+        [
+          "MPU6050",
+          1,
+          "MPU6050",
+          "P1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "523d70a499074fc2bc28d70ae55273d1",
+            "uuid": "69615fe690c54df6afb90f1adf2df97c"
+          }
+        ],
+        [
+          "L7805CV",
+          1,
+          "TO-220-3_L10.0-W4.5-P2.54-L",
+          "U3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "STMicroelectronics",
+            "BOM_Manufacturer Part": "L7805CV",
+            "BOM_Supplier Part": "C111887",
+            "puuid": "948e610cffd14df79f04c73832b1409b",
+            "uuid": "9669163051044703a07eaec8582464b6"
+          }
+        ],
+        [
+          "22pF",
+          5,
+          "CAP-TH_L5.0-W4.0-P5.00-D1.0",
+          "C7,C3,C5,C4,C6",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ReliaPro",
+            "BOM_Manufacturer Part": "Ceramic capacitors47PF 3KV",
+            "BOM_Supplier Part": "C19375",
+            "puuid": "30003a4557d5483e9e4d774ffa7189c8",
+            "uuid": "abc75a3247db7d77741ccb22cb42de8b"
+          }
+        ],
+        [
+          "OSCILLATOR",
+          1,
+          "OSC",
+          "X1_16MHZ",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "d14433e8a1594a24a4e5ba469db2afc3",
+            "uuid": "b74b80cfe7064e6ab139cd388884dcd0"
+          }
+        ],
+        [
+          "Header-Female-2.54_1x8",
+          4,
+          "HDR-TH_8P-P2.54-V",
+          "POWER1,DIGITAL_IO1,DIGITAL_IO,POWER",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "Female headerHDR1X8-2.54",
+            "BOM_Supplier Part": "C27438",
+            "puuid": "366e1b46b2ba4833900571d9613df11d",
+            "uuid": "bacf5553da266925c44144ce5fdc0a97"
+          }
+        ],
+        [
+          "47uF",
+          2,
+          "CAP-D8.0XF3.5",
+          "C2,C1",
+          {
+            "BOM_Supplier Part": "C47903",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "ValuePro",
+            "BOM_Manufacturer Part": "47uF 100V 8*14Black high frequency",
+            "puuid": "a1a9b191f1bc4d0b9a67b347f5e43bbd",
+            "uuid": "c9ae74abbef14a208e962258f974306b"
+          }
+        ],
+        [
+          "FT232RLSSOP",
+          1,
+          "SSOP28DB",
+          "U1",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "722dd62e6e1845e98ef69294614fcacd",
+            "uuid": "cb4055a2f4a74f3381b4acad2a86abbc"
+          }
+        ],
+        [
+          "Header-Female-2.54_1x6",
+          2,
+          "HDR-TH_6P-P2.54-V-F",
+          "ANALOGUE_INPUT1,ANALOGUE_INPUT",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "BOOMELE",
+            "BOM_Manufacturer Part": "Female header 1*6p",
+            "BOM_Supplier Part": "C40877",
+            "puuid": "84f1ed3c8ee94504833047c26b4d21a2",
+            "uuid": "f367c9043b9d696814add546ab641d32"
+          }
+        ]
+      ],
+      "updateTime": 1609165365,
+      "createTime": 1608753286,
+      "histories": [],
+      "created_at": "2020-12-23 21:54:46",
+      "updated_at": "2020-12-28 16:22:45"
+    },
+    {
+      "uuid": "177d4e919d3b6520e410aaf92dc98af3",
+      "puuid": "96eef805b03f2ebb2a089c1bd41493c0",
+      "title": "PCB_2020-12-28_16-33-19",
+      "filename": "PCB_2020-12-28_16-33-19.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "97ce2590a227457c91ada573d82c648e": 3,
+        "b98bb3d2702843ceb9d5bb123f78dbca": 1,
+        "f962f504fec044148a8605c2e711a789": 1,
+        "17eda053266b4cdca86c67384ca2b6c2": 2,
+        "1f1103fa7d644f9ea30f99d21e4e85bf": 1,
+        "666264fd42b84465ad050a9517cab8cf": 6,
+        "a9f58b7c827549bea2319eb039944681": 1,
+        "77928cef351446688851083c91bd25b6": 1,
+        "62ebdfef793947468e3737868cdd34ba": 1,
+        "2f1d96128ab94db491eae99d61bfb39c": 1,
+        "523d70a499074fc2bc28d70ae55273d1": 1,
+        "948e610cffd14df79f04c73832b1409b": 1,
+        "30003a4557d5483e9e4d774ffa7189c8": 5,
+        "d14433e8a1594a24a4e5ba469db2afc3": 1,
+        "366e1b46b2ba4833900571d9613df11d": 4,
+        "a1a9b191f1bc4d0b9a67b347f5e43bbd": 2,
+        "722dd62e6e1845e98ef69294614fcacd": 1,
+        "84f1ed3c8ee94504833047c26b4d21a2": 2
+      },
+      "BOM": [],
+      "updateTime": 1609181561,
+      "createTime": 1609165999,
+      "histories": [],
+      "created_at": "2020-12-28 16:33:19",
+      "updated_at": "2020-12-28 20:52:41"
+    }
+  ],
+  "sort": [],
+  "title": "My_Own_Arduino",
+  "foldername": "My_Own_Arduino",
+  "schfilename": "My_Own_Arduino.json",
+  "schfilemtime": 1609165365754
+}
